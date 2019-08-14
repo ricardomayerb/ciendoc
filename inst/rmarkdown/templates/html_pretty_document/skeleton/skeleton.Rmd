@@ -8,6 +8,18 @@ output:
     highlight: github
 ---
 
+
+
+<img src="cien-logo.png" style="position:absolute;top:0;right:0; padding:5px;max-height:20%; max-width:20%;" />
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+```
+
+
 ## A New Output Format
 
 `html_pretty` in the [**prettydoc**](https://github.com/yixuan/prettydoc/)
