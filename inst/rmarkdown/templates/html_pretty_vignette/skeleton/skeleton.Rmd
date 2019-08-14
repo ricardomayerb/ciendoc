@@ -3,7 +3,7 @@ title: "Vignette Title"
 author: "Vignette Author"
 date: "`r Sys.Date()`"
 output:
-  prettydoc::html_pretty:
+  ciendoc::html_pretty:
     theme: cayman
     highlight: github
 vignette: >
@@ -32,7 +32,7 @@ for example:
 
 ```yaml
 output:
-  prettydoc::html_pretty:
+  ciendoc::html_pretty:
     theme: cayman
     highlight: github
 ```

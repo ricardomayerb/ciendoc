@@ -52,7 +52,7 @@ for more details.
 \examples{
 \dontrun{
 doc = system.file("rmarkdown", "templates", "html_pretty_vignette",
-                  "skeleton", "skeleton.Rmd", package = "prettydoc")
+                  "skeleton", "skeleton.Rmd", package = "ciendoc")
 rmarkdown::render(doc, html_pretty(), output_dir = tempdir())
 }
 }

@@ -4,7 +4,7 @@ subtitle: "The Tactile Theme"
 author: "Yixuan Qiu"
 date: "`r Sys.Date()`"
 output:
-  prettydoc::html_pretty:
+  ciendoc::html_pretty:
     theme: tactile
     highlight: vignette
 vignette: >
@@ -52,7 +52,7 @@ The `prettydoc` package provides an alternative engine, `html_pretty`,
 to knit your R Markdown document into pretty HTML pages.
 Its usage is extremely easy: simply replace the
 `rmarkdown::html_document` or `rmarkdown::html_vignette` output engine by
-`prettydoc::html_pretty` in your R Markdown header, and use one of the built-in
+`ciendoc::html_pretty` in your R Markdown header, and use one of the built-in
 themes and syntax highlighters. For example
 
 ```yaml
@@ -61,7 +61,7 @@ title: Nineteen Years Later
 author: Harry Potter
 date: July 31, 2016
 output:
-  prettydoc::html_pretty:
+  ciendoc::html_pretty:
     theme: cayman
     highlight: github
 ---
@@ -104,7 +104,7 @@ title: Nineteen Years Later
 author: Harry Potter
 date: July 31, 2016
 output:
-  prettydoc::html_pretty:
+  ciendoc::html_pretty:
     theme: cayman
     highlight: github
     math: katex
