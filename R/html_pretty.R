@@ -76,12 +76,12 @@ html_pretty <- function(theme = "cayman",
 ################################################################################
 
     ## Directories for resources
-    css_dir  <- system.file("resources", "css",              package = "prettydoc")
-    hl_dir   <- system.file("resources", "css", "highlight", package = "prettydoc")
-    font_dir <- system.file("resources", "fonts",            package = "prettydoc")
-    img_dir  <- system.file("resources", "images",           package = "prettydoc")
-    js_dir   <- system.file("resources", "js",               package = "prettydoc")
-    tmpl_dir <- system.file("resources", "templates",        package = "prettydoc")
+    css_dir  <- system.file("resources", "css",              package = "ciendoc")
+    hl_dir   <- system.file("resources", "css", "highlight", package = "ciendoc")
+    font_dir <- system.file("resources", "fonts",            package = "ciendoc")
+    img_dir  <- system.file("resources", "images",           package = "ciendoc")
+    js_dir   <- system.file("resources", "js",               package = "ciendoc")
+    tmpl_dir <- system.file("resources", "templates",        package = "ciendoc")
 
     ## Obtain theme CSS
     avail_themes <- gsub("\\.css$", "", list.files(css_dir, "\\.css$"))

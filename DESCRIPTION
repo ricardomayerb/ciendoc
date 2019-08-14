@@ -1,7 +1,7 @@
-Package: prettydoc
+Package: ciendoc
 Type: Package
 Title: Creating Pretty Documents from R Markdown
-Version: 0.3.0
+Version: 0.0.1
 Date: 2019-07-15
 Authors@R: c(
     person("Yixuan", "Qiu", , "yixuan.qiu@cos.name", c("aut", "cre")),
@@ -35,8 +35,6 @@ Suggests:
     knitr, KernSmooth
 SystemRequirements: pandoc (>= 1.12.3)
 VignetteBuilder: knitr, rmarkdown
-URL: https://github.com/yixuan/prettydoc
-BugReports: https://github.com/yixuan/prettydoc/issues
 License: Apache License (>= 2.0)
 Encoding: UTF-8
 LazyData: true
